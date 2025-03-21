@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const vzvButton = document.getElementById("vzv");
 
   const qrcodeColor_Dark = "#222";
-  const qrcodeColor_Light = "#cccccc";
+  const qrcodeColor_Light = "#eeeeee";
 
   const qrcode = new QRCode("qrcode", {
     text: defaultUrlInput,
