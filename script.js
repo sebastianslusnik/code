@@ -11,8 +11,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const dinnerButton = document.getElementById("dinner");
   const vzvButton = document.getElementById("vzv");
 
-  const qrcodeColor_Dark = "#111";
-  const qrcodeColor_Light = "#f1f1f1";
+  const qrcodeColor_Dark = "#222";
+  const qrcodeColor_Light = "#cccccc";
 
   const qrcode = new QRCode("qrcode", {
     text: defaultUrlInput,

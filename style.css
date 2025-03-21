@@ -14,8 +14,8 @@ body {
   touch-action: pan-y;
 }
 body.dark-mode {
-  background-color: #f1f1f1;
-  color: #f1f1f1;
+  background-color: #cccccc;
+  color: #cccccc;
   transition: all 0.15s ease-in-out;
 }
 .user-select-none {
@@ -30,17 +30,17 @@ body.dark-mode {
 span {
   display: block;
   width: calc(100% - 1px);
-  border: 2px solid #f1f1f1;
+  border: 2px solid #cccccc;
   border-bottom: none;
-  padding: .9rem;
+  padding: 1rem;
   text-align: center;
   font-size: 1.3rem;
   background-color: #222;
 }
 .qrcode {
   padding: 10vw;
-  padding-top: 16vw;
-  background-color: #f1f1f1;
+  padding-top: 18vw;
+  background-color: #cccccc;
   width: 100%;
   height: 100%;
 }
