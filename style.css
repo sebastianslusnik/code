@@ -29,13 +29,15 @@ body.dark-mode {
 }
 span {
   display: block;
-  width: calc(100% - 1px);
-  border: 2px solid #eeeeee;
+  width: calc(100% - 8px);
+  border: none;
   border-bottom: none;
   padding: 1rem;
   text-align: center;
   font-size: 1.3rem;
   background-color: #222;
+  margin: 4px;
+  border-radius: 6px;
 }
 .qrcode {
   padding: 10vw;
