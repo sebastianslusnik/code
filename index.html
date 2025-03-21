@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Dynamic QR Code Generator</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body class="dark-mode">
+  <!-- Menu -->
+  <span id="fullEmail">FULL E-MAIL ADDRESS</span>
+  <span id="shortEmail">E-MAIL USERNAME</span>
+  <span id="password">E-MAIL PASSWORD</span>
+  <span id="user">SCANNER USERNAME</span>
+  <span id="code">SCANNER PASSWORD</span>
+  <span id="dinner">DINNER FORM</span>
+  <span id="vzv">FORKLIFT FORM</span>
+
+  <!-- QR Code -->
+  <section class="flex-col-center user-select-none" align="center">
+    <div id="qrcode" class="qrcode  dark-mode shadow" align="center"></div>
+  </section>
+
+  <!-- Input field -->
+  <section class="input">
+    <input class="input-field dark-mode" id="urlInput" type="text" value="" placeholder="Enter value..." />
+  </section>
+
+  <!-- Current URL/Text Display -->
+  <div class="input-display">
+    <p id="currentUrlText" class="user-select-none">Converted value:</p>
+    <p id="currentUrl"></p>
+  </div>
+</body>
+<!-- partial -->
+  <script src='https://cdn.jsdelivr.net/npm/davidshimjs-qrcodejs@0.0.2/qrcode.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/js/all.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/fontawesome.min.css'></script><script  src="./script.js"></script>
+
+</body>
+</html>
